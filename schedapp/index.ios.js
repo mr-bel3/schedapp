@@ -22,8 +22,10 @@ export default class schedapp extends Component {
           <Title>Schedule up this bitch</Title>
         </Header>
         <Content>
-
-          <Button>Register a Team</Button>
+          <Text>Welcome to Schedapp!</Text>
+          <Button>Register an organization</Button>
+          <Text>Already have a team?</Text>
+          <Button> Sign In!</Button>
         </Content>
       </Container>
     );
