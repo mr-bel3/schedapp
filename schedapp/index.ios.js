@@ -15,7 +15,7 @@ import {Container, Content, Title, Header, Button} from 'native-base';
 
 export default class schedapp extends Component {
   render() {
-  	debugger;
+    debugger;
     return (
       <Container>
         <Header>
