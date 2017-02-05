@@ -11,23 +11,21 @@ import {
   Text,
   View
 } from 'react-native';
+import {Container, Content, Title, Header, Button} from 'native-base';
 
 export default class schedapp extends Component {
   render() {
   	debugger;
     return (
-      <View style={styles.container}>
-        <Text style={styles.welcome}>
-          Welcome to schedapp!
-        </Text>
-        <Text style={styles.instructions}>
-          To get started, edit index.ios.js
-        </Text>
-        <Text style={styles.instructions}>
-          Press Cmd+R to reload,{'\n'}
-          Cmd+D or shake for dev menu
-        </Text>
-      </View>
+      <Container>
+        <Header>
+          <Title>Schedule up this bitch</Title>
+        </Header>
+        <Content>
+
+          <Button>Register a Team</Button>
+        </Content>
+      </Container>
     );
   }
 }
