@@ -5,21 +5,24 @@
  */
 
 import React, { Component } from 'react';
-import {
-  AppRegistry,
-  StyleSheet,
-  Text,
-  View
-} from 'react-native';
-import {Container, Content, Title, Header, Button} from 'native-base';
+import { AppRegistry } from 'react-native';
+import { Container, Content, Header, Title } from 'native-base';
 import LandingPage from './src/Components/LandingPage';
+import Task from './src/Components/Task';
 
 export default class schedapp extends Component {
   render() {
     debugger;
     return (
-      <LandingPage/>
-    );
+        <Container>
+        <Header>
+          <Title>Schedapp</Title>
+        </Header>
+        <Content>
+            <LandingPage/>
+        </Content>
+        </Container>
+        );
   }
 }
 
